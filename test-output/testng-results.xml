@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="5" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-30T00:35:51 BST" name="Suite" finished-at="2023-03-30T00:36:02 BST" duration-ms="10368">
+    <groups>
+    </groups>
+    <test started-at="2023-03-30T00:35:51 BST" name="Test1" finished-at="2023-03-30T00:36:02 BST" duration-ms="10368">
+      <class name="testPackage.LoginPageTestCases">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testPackage.LoginPageTestCases@223d2c72]" started-at="2023-03-30T00:35:55 BST" name="beforeClass" finished-at="2023-03-30T00:35:55 BST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testPackage.LoginPageTestCases@223d2c72]" started-at="2023-03-30T00:35:55 BST" name="beforeMethod" finished-at="2023-03-30T00:35:55 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="VerifyLoginPageWithInvalidUsername_InvalidPassword()[pri:0, instance:testPackage.LoginPageTestCases@223d2c72]" started-at="2023-03-30T00:35:55 BST" name="VerifyLoginPageWithInvalidUsername_InvalidPassword" finished-at="2023-03-30T00:35:57 BST" duration-ms="1316" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.fail(Assert.java:106)
+at testPackage.LoginPageTestCases.VerifyLoginPageWithInvalidUsername_InvalidPassword(LoginPageTestCases.java:107)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginPageWithInvalidUsername_InvalidPassword -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testPackage.LoginPageTestCases@223d2c72]" started-at="2023-03-30T00:35:57 BST" name="afterMethod" finished-at="2023-03-30T00:35:58 BST" duration-ms="1391" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyLoginPageWithInvalidUsername_InvalidPassword status=FAILURE method=LoginPageTestCases.VerifyLoginPageWithInvalidUsername_InvalidPassword()[pri:0, instance:testPackage.LoginPageTestCases@223d2c72] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testPackage.LoginPageTestCases@223d2c72]" started-at="2023-03-30T00:35:58 BST" name="beforeMethod" finished-at="2023-03-30T00:35:58 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="VerifyLoginPageWithValidData()[pri:0, instance:testPackage.LoginPageTestCases@223d2c72]" started-at="2023-03-30T00:35:58 BST" name="VerifyLoginPageWithValidData" finished-at="2023-03-30T00:35:59 BST" duration-ms="1010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginPageWithValidData -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testPackage.LoginPageTestCases@223d2c72]" started-at="2023-03-30T00:35:59 BST" name="afterMethod" finished-at="2023-03-30T00:36:00 BST" duration-ms="1097" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyLoginPageWithValidData status=SUCCESS method=LoginPageTestCases.VerifyLoginPageWithValidData()[pri:0, instance:testPackage.LoginPageTestCases@223d2c72] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testPackage.LoginPageTestCases@223d2c72]" started-at="2023-03-30T00:36:00 BST" name="beforeMethod" finished-at="2023-03-30T00:36:00 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyAdminPage()[pri:0, instance:testPackage.LoginPageTestCases@223d2c72]" started-at="2023-03-30T00:36:00 BST" name="verifyAdminPage" finished-at="2023-03-30T00:36:00 BST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdminPage -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testPackage.LoginPageTestCases@223d2c72]" started-at="2023-03-30T00:36:00 BST" name="afterMethod" finished-at="2023-03-30T00:36:01 BST" duration-ms="1099" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAdminPage status=SUCCESS method=LoginPageTestCases.verifyAdminPage()[pri:0, instance:testPackage.LoginPageTestCases@223d2c72] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="AfterClass()[pri:0, instance:testPackage.LoginPageTestCases@223d2c72]" started-at="2023-03-30T00:36:01 BST" name="AfterClass" finished-at="2023-03-30T00:36:01 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+      </class> <!-- testPackage.LoginPageTestCases -->
+      <class name="testPackage.BaseClass">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:testPackage.BaseClass@6ae5aa72]" started-at="2023-03-30T00:35:51 BST" name="beforeTest" finished-at="2023-03-30T00:35:55 BST" duration-ms="3965" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testPackage.BaseClass@6ae5aa72]" started-at="2023-03-30T00:36:01 BST" name="afterTest" finished-at="2023-03-30T00:36:02 BST" duration-ms="426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testPackage.BaseClass -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
